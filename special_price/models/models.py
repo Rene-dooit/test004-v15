@@ -22,4 +22,4 @@ class SaleOrderLine(models.Model):
     _inherit = "sale.order.line"
 
     special_price = fields.Boolean(string="Special Price")
-    toeter = fields.Char(size=60)
+   
