@@ -18,13 +18,15 @@
     # for the full list
     'category': 'Uncategorized',
     'version': '0.1',
+    'license': 'Other proprietary',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'sale',],
+    #'depends': ['base', 'sale',],
+    'depends': ['base'],
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
